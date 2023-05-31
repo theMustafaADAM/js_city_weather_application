@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="freamwork.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container bg-white txt-c mt-50 w-half m-auto rad-6 p-20 mt-50">
+        <h1 class="pt-40 pb-40">Weather App</h1>
+        <form class="flxcenter al-item-cntr mb-20">
+            <input type="text" id="city-input" placeholder="Enter City" class="p-10 brdr-zero outlin-non fs-18 w-sixty">
+            <input type="submit" value="Get Weather" class="bg-blue-sky c-white brdr-zero pt-10 pb-10 pl-20 pr-20 rad-6 fs-18 pointr outlin-non hover-opacity trnsit-04">
+        </form>
+        <div id="weather-data">
+            <div class="icon ">
+                <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon" class="w-100 h-100"> -->
+            </div>
+            <div class="temprature fs-48 fw-bold m-20z"></div>
+            <div class="description fs-24 mb-20"></div>
+            <div class="details flxcenter al-item-cntr flxwrap pt-40 pb-40">
+                <!-- <div class="p-20 m-10 flxone rad-6 txt-c "></div>
+                <div class="p-20 m-10 flxone rad-6 txt-c "></div>
+                <div class="p-20 m-10 flxone rad-6 txt-c "></div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
